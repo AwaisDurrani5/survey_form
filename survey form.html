@@ -1,0 +1,47 @@
+
+<!Doctype html>
+<html>
+  <head>
+    <meta charset ="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id='title'>Survey Form</h1>
+
+    <p id='description'>this is a survey form apply buy filling this form</p>
+    
+    <form id='survey-form'>
+      <input id="name" type="text" placeholder="Enter Your Name" required> <label id="name-label">Name</label>
+      
+      <input id="email" type="email" placeholder="E-mail" required><label id="email-label">E-mail</label>
+      
+     <input id="number" type="number" min="11" max="11" placeholder="Enter Number" reqiured><label id="number-label" >Number</label>
+     <br>
+
+     <label><input  type="radio" name="yes" value="yes" > YES</label>
+     <label><input  type="radio" name="yes" value="yes"> No </label>
+
+     <select id="dropdown">
+       <option>option 1</option>
+       <option>option 2</option>
+       <option>option 3</option>
+     </select>
+     <br>
+     <input id="child" type="checkbox" name="age-group" value="child" checked> <label for="child">Child</label>
+            <input id="adult" type="checkbox" name="age-group" value="adult"> <label for="adult">Adult</label>
+            <input id="aged" type="checkbox" name="age-group" value="aged"> <label for="aged">Aged</label>
+
+     <br>
+     <textarea id="comment" name="comment" rows="4" cols="34">Enter text here </textarea>
+     <br>
+
+      <button id="submit" type="submit">submit</button>
+
+
+</form>
+
+  </body>
+</html>
+
+
